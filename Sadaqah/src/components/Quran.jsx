@@ -155,6 +155,9 @@ const QuranDisplay = () => {
                         بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
                       </span>
                       <div className="mt-4 border-t-2 border-green-900 w-1/3 mx-auto opacity-50"></div>
+                      <span className="text-lg sm:text-xl text-green-900 block mt-4">
+                        {verse.surah.englishName} ({verse.surah.name})
+                      </span>
                     </div>
                   );
                 }
