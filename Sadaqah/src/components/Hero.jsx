@@ -1,11 +1,11 @@
 import React from 'react';
-
+import HeroImage from '../assets/Hero.jpg';
 const Hero = () => {
     return (
             <div className="flex items-center justify-center min-h-screen bg-amber-50">
                 <div className="max-w-md p-6 bg-white rounded-lg shadow-2xl text-center">
                     <img 
-                        src="src/assets/Hero.jpg" 
+                        src={HeroImage}
                         alt="Sadaqah Image" 
                         className="mx-auto w-96 h-96 rounded-lg shadow-md mb-6"
                     />
