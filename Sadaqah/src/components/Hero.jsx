@@ -16,7 +16,7 @@ const Hero = () => {
                         صدقة الجارية هي الوقف ، وهي الواردة في حديث أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال : 
                         ( إذَا مَاتَ الإِنْسَانُ انْقَطَعَ عَمَلُهُ إلاَّ مِنْ ثَلاَثٍ : صَدَقَةٍ جَارِيَةٍ ، أَوْ عِلْمٍ يُنْتَفَعُ بِهِ ، أَوْ وَلَدٍ صَالِحٍ يَدْعُو لَهُ ) رواه مسلم
                     </p>
-                    <a href="src/assets/Hero.jpg" target="_blank" rel="noopener noreferrer">
+                    <a href={HeroImage} target="_blank" rel="noopener noreferrer">
                         <button className="px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition">
                             تبرع الآن
                         </button>
